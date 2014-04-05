@@ -1,0 +1,7 @@
+/home/ori/Work/Translator/Translator/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/ori/Work/Translator/Translator/obj/x86/Debug/Translator.gtk-gui.gui.stetic
+/home/ori/Work/Translator/Translator/bin/Debug/Translator.exe.mdb
+/home/ori/Work/Translator/Translator/bin/Debug/Translator.exe
+/home/ori/Work/Translator/Translator/obj/x86/Debug/Translator.exe
+/home/ori/Work/Translator/Translator/obj/x86/Debug/Translator.exe.mdb
+/home/ori/Work/Translator/Translator/bin/Debug/GoogleTranslateAPI.dll
