@@ -11,8 +11,8 @@ namespace TranslateApi
 
 			public Language (string index, string name)
 			{
-				this.index = index;
-				this.name = name;
+//				this.index = index;
+//				this.name = name;
 			}
 		}
 

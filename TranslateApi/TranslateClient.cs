@@ -8,10 +8,10 @@ namespace TranslateApi
 		{
 		}
 
-		public string TranslateText(Language fromLanguage, Language toLanguage, string text)
-		{
-
-		}
+//		public string TranslateText(Language fromLanguage, Language toLanguage, string text)
+//		{
+//
+//		}
 	}
 }
 

@@ -51,10 +51,13 @@
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="Mono.Posix" />
-    <Reference Include="GoogleTranslateAPI">
-      <HintPath>..\GoogleTranslateAPI_0.3.1\GoogleTranslateAPI.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="Mono.Http" />
+    <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
@@ -68,8 +71,8 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="TranslateApi\TranslateClient.cs" />
-    <Compile Include="TranslateApi\Google\Parser.cs" />
     <Compile Include="TranslateApi\Languages.cs" />
+    <Compile Include="TranslateApi\Bing\AdmAuthentication.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -83,6 +86,5 @@
     <Folder Include="TranslateApi\" />
     <Folder Include="TranslateApi\Translate\" />
     <Folder Include="TranslateApi\Bing\" />
-    <Folder Include="TranslateApi\Google\" />
   </ItemGroup>
 </Project>

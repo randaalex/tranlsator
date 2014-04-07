@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translator", "Translator\Translator.csproj", "{17355604-D3B8-4D6D-9C83-82C2EA9ADA95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translator", "Translator.csproj", "{17355604-D3B8-4D6D-9C83-82C2EA9ADA95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,6 @@ Global
 		{17355604-D3B8-4D6D-9C83-82C2EA9ADA95}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Translator\Translator.csproj
+		StartupItem = Translator.csproj
 	EndGlobalSection
 EndGlobal
